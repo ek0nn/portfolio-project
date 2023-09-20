@@ -13,7 +13,19 @@ const redirectToKeeb = () => {
 const redirectToEatUP = () => {
   window.location.href = 'https://github.com/ek0nn/EatUP-android-app';
 };
+
+const gaming = () => {
+  window.location.href = 'https://gamingdb.vercel.app/';
+}
 export const projects = [
+  {
+    title: "GamingDB",
+    description:
+      "current project i am working on, it is a gaming database website where users can show off their collection of games and also see other users collections. Upload there best moments in gaming and also see other users best moments. and leave a review similar to my anime list ",
+    link: "Work in progress",
+    buttonAction: gaming,
+    buttonText: 'View Project',
+  },
   {
     title: "QuizAbot",
     description:
@@ -36,18 +48,18 @@ export const projects = [
   {
     title: "Comming Soon",
     description:
-      "Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.",
+      "Comming Soon. Comming Soon.Comming Soon.Comming Soon.Comming Soon.",
     link: "https://lol.com",
   },
   {
     title: "Comming Soon",
     description:
-    "Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon."
+    "Comming Soon. Comming Soon.Comming Soon.Comming Soon.Comming Soon.",
   },
   {
     title: "Comming Soon",
     description:
-    "Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon.Comming Soon."
+    "Comming Soon. Comming Soon.Comming Soon.Comming Soon.Comming Soon.",
   },
 ];
 
