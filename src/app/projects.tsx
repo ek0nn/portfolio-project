@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 
 
 const redirectToKeeb = () => {
-  window.location.href = 'https://statuesque-narwhal-e0b08f.netlify.app/';
+  window.location.href = 'https://beyond-azure.vercel.app/';
 };
 const redirectToEatUP = () => {
   window.location.href = 'https://github.com/ek0nn/EatUP-android-app';
@@ -39,7 +39,7 @@ export const projects = [
     buttonAction: redirectToEatUP,
   buttonText: 'View Project',  },
   {
-    title: "Keeb",
+    title: "Beyond",
     description:
       "A Full Stack E commerce website that sells everything to do with keyboards.",
     buttonAction: redirectToKeeb,
