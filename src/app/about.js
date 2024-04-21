@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef, useEffect } from "react";
 
 const phrase =
-  "Hi, my name is Sadhak. I am a recent Computer Science gradute with a passion in web developemnt. (praying that you can see that from this portfolio and project pls). When I'm not crafting digital worlds on the web, I'm conquering them in video games. Whether it's slaying dragons, solving puzzles, or racing against time, I'm always up for the next gaming adventure. My gaming skills are so sharp; they could cut through steel... or at least the toughest boss battles!.... pls hire me ";
+  "Hi, my name is Sadhak. I am a recent Computer Science gradute with a passion in game development. Currently learning unity to create a 2D RPG game.. It's a thrilling journey of learning, coding, and creativity as I strive to bring my ideas to life in the gaming world. Stick around to see what adventures await in this exciting project! ";
 
 export default function About() {
   let refs = useRef([]);
